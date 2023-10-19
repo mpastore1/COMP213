@@ -46,3 +46,116 @@ button.accept-policy[b-cn82hxbvxf] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+body[b-cn82hxbvxf] {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text][b-cn82hxbvxf], input[type=password][b-cn82hxbvxf] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button[b-cn82hxbvxf] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover[b-cn82hxbvxf] {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn[b-cn82hxbvxf] {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer[b-cn82hxbvxf] {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar[b-cn82hxbvxf] {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container[b-cn82hxbvxf] {
+  padding: 16px;
+}
+
+span.psw[b-cn82hxbvxf] {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal[b-cn82hxbvxf] {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content[b-cn82hxbvxf] {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close[b-cn82hxbvxf] {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover[b-cn82hxbvxf],
+.close:focus[b-cn82hxbvxf] {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate[b-cn82hxbvxf] {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+.webkit-keyframes animatezoom[b-cn82hxbvxf] {
+  from {-webkit-transform: scale(0)} 
+  to[b-cn82hxbvxf] {-webkit-transform: scale(1)}
+}
+  
+.keyframes animatezoom[b-cn82hxbvxf] {
+  from {transform: scale(0)} 
+  to[b-cn82hxbvxf] {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
