@@ -13,6 +13,10 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    public IActionResult Begin(){
+        return View()
+    }
+
     public IActionResult Index()
     {
         return View();
