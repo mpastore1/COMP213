@@ -14,7 +14,7 @@ public class HomeController : Controller
     }
 
     public IActionResult Begin(){
-        return View()
+        return View();
     }
 
     public IActionResult Index()
